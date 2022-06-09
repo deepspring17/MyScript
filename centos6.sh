@@ -27,6 +27,7 @@ Centos7：对于Centos7系统来说，直接使用enable即可。
 
 #systemctl disable nginx.service 关闭开机自启
 
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 
 yum install -y squid
 
